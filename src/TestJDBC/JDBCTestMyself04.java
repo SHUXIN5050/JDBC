@@ -35,7 +35,7 @@ public class JDBCTestMyself04 {
                 System.out.println("--------------------");
                 System.out.println("\t"+staffId+"\t"+staffName+"\t"+staffSalary);
             }else {
-                System.out.println("员工不存在，请确认后重新输入！");
+                System.out.println("查询的员工不存在，请确认后重新输入！");
             }
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
